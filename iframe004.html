@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframes</title>
+</head>
+<body>
+    <h1>Meu site principal</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet aspernatur ipsam! Officia ea incidunt obcaecati, repellat tempora, non nam perferendis corporis aliquid libero modi amet ipsum soluta placeat illum.</p>
+
+    <!--Esse comando da sandbox é uma maneira de evitar roubo de dados do usuario atraves de um iframe, sandbox n deixa que nenhum tipo de cadastro ocorra-->
+    <!--O outro mecanismo de segurança é o referrerpolicy="no-referer", ele determina que o conteúdo que ta sendo carregado dentro do iframe não consiga coletar nenhum tipo de dado do seu usuário... É um bloqueio contra o efeito de propagandas por exemplo.-->
+
+    <iframe src="formulario.html" frameborder="20" referrerpolicy="no-referer" sandbox="sandbox">
+        Seu navegador não é compátível com este conteúdo
+    </iframe>
+
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio vitae, labore obcaecati dignissimos soluta modi aliquid optio culpa? Veniam distinctio molestias, reprehenderit repellat laborum qui fuga debitis sed possimus ipsum!</p>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d239895.63306768975!2d-44.071620060916175!3d-20.03496990895933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6a30042cd1f59%3A0xa317953d89263640!2sNova%20Lima%2C%20MG!5e0!3m2!1spt-BR!2sbr!4v1726535268470!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe> 
+</body>
+</html>

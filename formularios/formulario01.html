@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+    <!--O auto:complete="off" no form é para desligar o sugerimento de nomes que ja foram cadastarados antes na através da sua conta-->
+    <form action="cadastro.php" autocomplete="off" method="post">
+        <p> 
+            <label for="nome">Nome:</label> 
+            <input type="text" name="nome" id="nome">
+        </p>
+
+        <p> 
+            <label for="iSobrenome">Sobrenome: </label>
+            <input type="text" name="Sobrenome" id="Sobrenome">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+
+    </form>
+</body>
+</html>

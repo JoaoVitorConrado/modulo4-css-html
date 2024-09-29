@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+
+    <form action="cadastro.php" method="post">
+        <p>
+            <input type="color" name="cor" id="icor" required>
+        </p>
+
+        <p>
+            <input type="file" name="satisf" id="isatisf" required> <label for="isatisf">Escolha uma imagem</label>
+        </p>
+         <input type="range" name="fel" id="ifel" required> <label for="ifel">Nível de satisfação</label>
+
+         <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+         </p>
+    </form>
+    
+</body>
+</html>

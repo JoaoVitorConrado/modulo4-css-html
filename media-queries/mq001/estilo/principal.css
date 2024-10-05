@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/*Essa é a folha de estilização de todo o site na web*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+}
+menu{
+    margin: 0px;
+    background-color: rgb(16, 162, 211);
+}
+ul{
+    columns: 2;
+    display: inline-block;
+    padding: 10px;
+}
+ul > li{
+    list-style-position: inside;
+    list-style-type: none;
+    padding: 5px;
+    background-color: rgb(84, 84, 219);
+    color: white;
+    font-weight: bold;
+}
+header > h1{
+    text-align: center;
+    padding: 10px;
+}
+header{ 
+    background-color: lightblue;
+}
+.lorem{
+    text-align: justify;
+    max-width: 600px;
+    
+    display: block;
+    margin: auto;
+    line-height: 1.5em;
+}

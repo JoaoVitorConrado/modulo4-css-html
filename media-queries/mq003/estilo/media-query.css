@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/*TODAS ASA DEMAIS MIDIAS*/
+
+/*TYPICAL DEVICES BREAKPOINTS
+
+Extra small devices (phones, 600px and down)
+small devices (portrait tablets and large phones, 600px and up)
+medium devices (landscape tablets, 768px and up)
+large devices (laptop and desktop, 992px and up)
+extra large devices (large laptops and desktops, 1200px and up)
+
+*/
+
+
+/*VERSÃO PARA IMPRESSORA*/
+@media print{
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    main{
+        border: solid 3px black;
+        margin-bottom: 10px;
+    }
+    h1{
+        color: black;
+        text-shadow: none;
+    }
+    img{
+        display: block;
+        
+        
+    }
+    
+    #phone{
+        display: none;
+    }
+    #print{
+        display: block;
+        margin: auto;
+    }
+}
+
+
+/*VERSÃO PARA TABLET*/
+@media screen and (min-width: 768px){
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+        background-position: left center;
+    }
+    #phone{
+        display: none;
+    }
+    #tablet{
+        display: block;
+        margin: auto;
+    }
+}
+
+
+/*VERSÃO PARA PC*/
+@media screen and (min-width: 992px){
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+        background-position: center center;
+    }
+    #tablet{
+        display: none;
+    }
+    #pc{
+        display: block;
+        margin: auto;
+    }
+
+}
+
+
+/*VERSÃO PARA TELAS MUITO GRANDES*/
+@media screen and (min-width: 1200px){
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+        background-position: center center;
+    }
+    #pc{
+        display: none;
+    }
+    #tv{
+        display: block;
+        margin: auto;
+    }
+}

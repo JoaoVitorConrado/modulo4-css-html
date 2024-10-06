@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@media print{
+
+}
+
+/*VERSÃO PARA CELULAR*/
+@media screen and (max-width: 600px){
+
+}
+
+/*VESÃO PARA LARGE PHONES, TABLET PORTRAIT*/
+@media screen and (min-width: 600px){
+
+}
+
+/*VERSÃO PARA TABLETES LANDSCAPE*/
+@media screen and (min-width: 768px){
+
+}
+
+/*VERSAO PARA PC*/
+@media screen and (min-width: 992px){
+
+}
+
+/*VERSÃO TELAS MT GRANDES*/
+@media screen and (min-width: 1200px){
+
+}

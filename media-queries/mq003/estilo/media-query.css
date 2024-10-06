@@ -21,6 +21,10 @@ extra large devices (large laptops and desktops, 1200px and up)
         border: solid 3px black;
         margin-bottom: 10px;
     }
+    main::after{
+        content: 'Conteúdo impresso do site: joaovitinhodelicia';
+        text-decoration: overline;
+    }
     h1{
         color: black;
         text-shadow: none;

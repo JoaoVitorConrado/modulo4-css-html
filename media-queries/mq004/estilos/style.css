@@ -1,5 +1,9 @@
 @charset "UTF-8";
+
+/*VERSÃO MOBILE FIRST*/
+
 *{
+    box-sizing: border-box;
     padding: 0px;
     margin: 0px;
     
@@ -8,54 +12,79 @@ html, body{
     
     height: 98vh;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
 }
 body{
     background-color: rgb(199, 193, 193);
-    text-align: justify;
+    
 }
 header{
     background-color: gray;
-    padding: 20px;
+    
 }
 header > h1{
+    padding: 10px;
     text-align: center;
     font-size: 2.2em;
-    padding: 10px;
+    
     margin-bottom: 10px;
 }
-header > menu{
+#burguer{
+    
+    background-color: rgb(44, 44, 44);
+    display: block;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+span > a{
+    text-decoration: none;
     color: white;
-    margin-bottom: -19px;
-    margin-left: -22px;
+}
+#burguer:hover{
+    background-color: rgb(65, 65, 65);
+
+}
+header > menu{
+    
+    display: none;
+    color: rgb(70, 70, 70);
+    
    
 }
 menu > ul{
-    list-style-position: inside;
+    
     list-style-type: none;
 }
 ul > li{
+    border-top: 2px solid gray;
     background-color: rgba(46, 46, 46, 0.801);
-    display: inline-block;
+    text-align: center;
     padding: 10px;
     
+    
 }
-li > a{
+menu > ul > li > a{
     color: white;
     text-decoration: none;
     font-weight: bold;
+    
 }
 ul > li:hover{
-    transition: 0.5s;
-    border-radius: 10px;
-    transform: translate(2px, 2px);
     
+    background-color: rgb(146, 146, 146);
+    border-radius: 10px;  
+}
+ul > li:active{
+    transform: scale(95%);
+    transition: 0.2s;
 }
 main{
     background-color: white;
     width: 95vw;
     margin: auto;
     border-radius: 10px;
-    margin: 10px;
+    
 }
 article > h1{
     padding: 10px;

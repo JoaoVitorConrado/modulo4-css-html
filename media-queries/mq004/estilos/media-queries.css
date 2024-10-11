@@ -4,27 +4,27 @@
 
 }
 
-/*VERSÃO PARA CELULAR*/
-@media screen and (max-width: 600px){
 
-}
 
-/*VESÃO PARA LARGE PHONES, TABLET PORTRAIT*/
-@media screen and (min-width: 600px){
-
-}
-
-/*VERSÃO PARA TABLETES LANDSCAPE*/
+/*VERSÃO PARA TABLETES LANDSCAPE E OUTROS*/
 @media screen and (min-width: 768px){
-
+    *{
+        box-sizing: border-box;
+    }
+header > menu{
+    display: block;
+}
+ul > li{
+    display: inline-block;
 }
 
-/*VERSAO PARA PC*/
-@media screen and (min-width: 992px){
-
+#burguer{
+    display: none;
+}
+main{
+    max-width: 850px;
+}
 }
 
-/*VERSÃO TELAS MT GRANDES*/
-@media screen and (min-width: 1200px){
 
-}
+

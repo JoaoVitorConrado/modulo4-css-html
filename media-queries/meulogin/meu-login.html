@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ept-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/mobilefirst.css" media="all">
+    <link rel="stylesheet" href="estilos/mediaquery.css" media="all">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Tela de Login</title>
+</head>
+<body>
+    <header><h1>JV TECH</h1></header>
+
+    <main>
+
+        <section id="login">
+            <div id="imagem">
+                <!--Aqui vai a imagem que esta no CSS-->
+                <h2>JV Tech</h2>
+            </div>
+
+            <div id="formulario">
+                <h1>Faça seu login</h1>
+                <p>Acesse o JV Tech para ter acesso a todos os projetos realizados</p>
+
+                <form action="" method="post" autocomplete="on">
+                    <div class="acesso">
+                        <span class="material-icons">
+                            mail
+                            </span>
+                        <input type="email" name="email" id="iemal" required autocomplete="email" placeholder="Seu Email">
+                        <label for="iemail">Email</label>
+                    </div>
+
+                    <div class="acesso">
+                        <span class="material-icons">vpn_key</span>
+                        <input type="password" name="senha" id="isenha" required min="8" placeholder="Mínimo 8 caracteres">
+                        <label for="isenha">Senha</label>
+                    </div>
+
+
+
+                    <div id="submissao">
+                        <input type="submit" value="Entrar">
+                        <a href="#">Esqueci minha senha <span class="material-icons" id="icone-link">mail</span></a>
+                    </div>
+                    <a href="#" id="cadastro">Cadastre-se</a>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+/*versao mobile*/
+
+@font-face {
+    font-family: 'paladins';
+    src: url(../fontes/paladins.ttf) format('opentype');
+}
+:root{
+    --cor01: #282134;
+    --cor02: #524B5E;
+    --cor03: #986FDE;
+    --cor04: #7A7289;
+    --cor05: #8D78B3;
+
+    --font-header: 'paladins', arial, sans-serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html, body{
+    width: 95vw;
+    height: 90vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-image: linear-gradient(to bottom, var(--cor01), var(--cor02), var(--cor04));
+    background-attachment: fixed;
+}
+main{
+    position: relative;
+    height: 95vh;
+    width: 95vw;
+}
+header{
+    display: none;
+    
+    text-align: center;
+    font-family: var(--font-header);
+    color: white;
+    padding: 25px;
+    margin-top: 20px;
+}
+#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    width: 250px;
+    height: 530px;
+    border-radius: 20px;  
+    background-color: white;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+}
+#login > #imagem{
+    display: block;
+    background-image: url(../imagens/pexels-koprivakart-10896192.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+    height: 180px;
+}
+#login > #imagem > h2{
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-family: 'paladins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 1px 3px 0px #8D78B3;
+}
+#login > #formulario{
+    display: block;
+}
+#login > #formulario > h1{
+    text-align: center;
+    margin: 7px 0px;
+}
+#login > #formulario > p{
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 10px;
+}
+ .acesso{
+    display: block;
+    width: 96%;
+    margin: 5px 4px;
+    border-radius: 5px;
+    background-color: #502d8dab;
+} 
+.acesso > label{
+    display: none;
+}
+.acesso > .material-icons{
+    color: white;
+    font-size: 1.5em;
+    width: 30px;
+    padding: 5px;
+}
+.acesso > input{
+    color: white;
+    background-color: #8a72b3;
+    border: none;
+    font-size: 1em;
+    width: calc(100% - 35px);
+    border-radius: 5px;
+    padding: 11px;
+    transform: translateY(-2px);
+    cursor: pointer;
+    
+    
+}
+.acesso > input::placeholder{
+    color: white;
+}
+
+form > #submissao > input[type=submit]{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 93%;
+    height: 35px;
+    background-color: #986FDE;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+form > #submissao > input[type=submit]:hover{
+    background-color: #8D78B3;
+}
+form > #submissao > a{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 93%;
+    height: 35px;
+    margin-top: 20px;
+    border: 2px solid #282134;
+    text-decoration: none;
+    color: #986FDE;
+}
+form > #submissao > a:hover{
+    background-color: #442679;
+    color: white;
+}
+form > #submissao > a > #icone-link{
+    font-size: 1em;
+    padding: 5px;
+}
+#cadastro{
+    display: block;
+    width: 100%;
+    height: 15px;
+    margin: auto;
+    text-align: center;
+    margin-top: 8px;
+    text-decoration: none;
+    color: #986FDE;
+    
+}
+#cadastro:hover{
+    color: #603ba1;
+}
+
+

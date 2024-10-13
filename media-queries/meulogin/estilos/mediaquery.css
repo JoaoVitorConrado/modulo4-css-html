@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){
+    body{
+        background-image: url(../imagens/pexels-pixabay-220072.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    main{
+        height: 84vh;
+    }
+    header{
+        display: block;
+        font-size: 2em;
+    }
+    #login{
+        width: 50vw;
+    }
+    #login > #imagem{
+        background-size: cover;
+        background-position: left center;
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    #login > #imagem > h2{
+        margin-top: 227px;
+    }
+    #login > #formulario{
+        float: right;
+        width: 70%;
+        height: 100%;
+    }
+    #login > #formulario > p{
+        padding: 20px;
+        margin-bottom: 40px;
+        font-size: 1.3em;
+    }
+    #formulario > h1{
+        font-size: 2em;
+    }
+    form > #submissao > input[type=submit]{
+        margin-top: 80px;
+    }
+    .acesso{
+        width: 90%;
+        margin: 10px 20px;
+    }
+    
+    
+}
+
+@media screen and (min-width: 992){
+   #login{
+        width: 60vw;
+   }
+   #login > #imagem{
+    float: left;
+    width: 40%;
+    height: 100%;
+   }
+   #login > #formulario{
+    float: right;
+    width: 60%;
+    height: 100%;
+   }
+
+}
+
+@media screen and (min-width: 1200px){
+    #login{
+        width: 70vw;
+    }
+    #login > #imagem{
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+    #login > #formulario{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    #login > #imagem > h2{
+        margin-top: 57px;
+    }
+}
